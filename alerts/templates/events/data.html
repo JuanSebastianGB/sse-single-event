@@ -1,7 +1,10 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>Alert SSE</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
   </head>
   <body>
     <div id="alerts"></div>
@@ -10,6 +13,7 @@
       eventSource.onmessage = function (event) {
         const data = JSON.parse(event.data);
         const newAlert = document.createElement('div');
+        newAlert.className = 'alert';
         newAlert.textContent = data.message;
         document.getElementById('alerts').appendChild(newAlert);
       };
