@@ -24,8 +24,8 @@ This project is a Django-based web application that demonstrates how to implemen
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/yourusername/django-sse-alerts.git
-   cd django-sse-alerts
+   git clone https://github.com/JuanSebastianGB/sse-single-event.git
+   cd sse-single-event
    ```
 
 2. **Create a `.env` file**:
@@ -45,8 +45,8 @@ This project is a Django-based web application that demonstrates how to implemen
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/yourusername/django-sse-alerts.git
-   cd django-sse-alerts
+   git clone https://github.com/JuanSebastianGB/sse-single-event.git
+   cd sse-single-event
    ```
 
 2. **Create a virtual environment**:
