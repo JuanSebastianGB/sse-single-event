@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alert SSE</title>
+  </head>
+  <body>
+    <div id="alerts"></div>
+    <script>
+      const eventSource = new EventSource('/events/');
+      eventSource.onmessage = function (event) {
+        const data = JSON.parse(event.data);
+        const newAlert = document.createElement('div');
+        newAlert.textContent = data.message;
+        document.getElementById('alerts').appendChild(newAlert);
+      };
+    </script>
+  </body>
+</html>
