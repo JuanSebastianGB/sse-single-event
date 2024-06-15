@@ -2,6 +2,9 @@
 
 This project is a Django-based web application that demonstrates how to implement a real-time alert system using Server-Sent Events (SSE). The alerts are broadcasted to connected clients in real-time, providing an interactive and responsive user experience.
 
+
+![demo](https://github.com/JuanSebastianGB/sse-single-event/assets/85469830/86549d1d-a114-4da9-a49d-3cf24c2f4abd)
+
 ## Features
 
 - Real-time alerts using Server-Sent Events (SSE)
